@@ -9,8 +9,8 @@ class ContactListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        contacts = StorageManager.shared.fetchContacts()
-   //     contacts = StorageManager.shared.fetchFromFile()
+   //     contacts = StorageManager.shared.fetchContacts()
+        contacts = StorageManager.shared.fetchFromFile()
         
     }
     

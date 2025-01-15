@@ -42,7 +42,7 @@ class NewContactViewController: UIViewController {
         
         let contact = Contact(firstName: firstName, lastName: lastName)
 //        StorageManager.shared.save(contact: contact)
-  //      StorageManager.shared.saveToFile(with: contact)
+        StorageManager.shared.saveToFile(with: contact)
         
         delegate.saveContact(contact)
         dismiss(animated: true)
